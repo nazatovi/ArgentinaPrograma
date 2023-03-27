@@ -1,0 +1,57 @@
+body{
+    font-family: roboto;
+}
+.heroImage{
+    height: 100vh;
+    
+    background-image: url(/bg-palm.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+img{
+    margin-top: 60px;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputsCaja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.input{
+    width: 300px;
+    height: 25px;
+    border: none;
+    margin: 5px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 11px;
+    
+}
+
+
+.redesSociales{
+
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
